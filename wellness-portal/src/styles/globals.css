@@ -1,0 +1,12 @@
+/* globals.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fafaf8;
+  color: #2b2b2b;
+}

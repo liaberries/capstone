@@ -1,0 +1,70 @@
+.admin {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    min-height: 100vh;
+    background: #f5f7fb;
+  }
+  
+  .admin-sidebar {
+    background: #3d52a0;
+    color: white;
+    padding: 1.5rem 1rem;
+  }
+  
+  .admin-sidebar h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  
+  .admin-sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .admin-sidebar a {
+    color: white;
+    opacity: 0.9;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .admin-sidebar a:hover {
+    opacity: 1;
+  }
+  
+  .admin-main {
+    padding: 2rem 2.5rem;
+  }
+  
+  .admin-main h1 {
+    margin-bottom: 1.5rem;
+    color: #3d52a0;
+  }
+
+  .admin-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .admin {
+      grid-template-columns: 1fr;
+    }
+  
+    .admin-sidebar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .admin-sidebar nav {
+      flex-direction: row;
+    }
+  }
+  
+  
