@@ -20,7 +20,7 @@ body {
 }
 
 /* Main display / brand font */
-.brand-mark,
+.brand-logo,
 .hero-title,
 .main-font {
   font-family: var(--font-display);
@@ -32,7 +32,6 @@ body {
 .hero-title {
   font-size: 100px;
 }
-
 
 /* H1 */
 h1,
